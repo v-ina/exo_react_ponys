@@ -3,8 +3,7 @@ import Accueil from "./pages/Accueil";
 import Poneys from "./pages/Poneys"
 import Contact from "./pages/Contact";
 import Apropos from "./pages/Apropos";
-import Header from "./components/Header";
-import Footer from "./components/Footer"
+import PoneyTalk from "./pages/PoneyTalk";
 
 
 function App() {
@@ -18,6 +17,7 @@ function App() {
           <Route path="/poneys" element={<Poneys />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/apropos" element={<Apropos />} />
+          <Route path="/poneytalk" element={<PoneyTalk />} />
         </Routes>
       </BrowserRouter>
     </>

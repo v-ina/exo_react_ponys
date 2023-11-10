@@ -15,7 +15,7 @@
             font-weight: bold;
         }
         
-        input{
+        input:not(:last-child){
             height: 40px;
             border-radius: 10px;
             border-color: transparent;

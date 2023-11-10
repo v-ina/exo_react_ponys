@@ -10,6 +10,7 @@ function Header(){
                 <li><Link to="/poneys">PONEYS</Link></li>
                 <li><Link to="/contact">CONTACT</Link></li>
                 <li><Link to="/apropos">A PROPOS</Link></li>
+                <li><Link to="/poneytalk">PONEY TALK</Link></li>
             </ul>
         </nav>
     )
