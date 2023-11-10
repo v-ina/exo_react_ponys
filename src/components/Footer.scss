@@ -1,0 +1,11 @@
+@import '../scss/variables';
+
+footer{
+    background-color: $bgColor;
+    text-align: center;
+    padding: 10px;
+    p{
+        letter-spacing: 5px;
+        color: white;
+    }
+}

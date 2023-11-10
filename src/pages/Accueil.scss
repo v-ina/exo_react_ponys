@@ -1,0 +1,50 @@
+@import '../scss/variables';
+
+.accueil--main{
+    .main--banner{
+        height: 400px;
+        background-image: url(../../public/assets/img/wallpaper.png);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        h1{
+            color: white;
+            font-size: 30px;
+            letter-spacing: 3px;
+        }
+    }
+
+    p{
+        width: 60%;
+        margin: 30px auto;
+        text-align: center;
+    }
+}
+
+.accueil--poneylist{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 100px;
+
+    .accueil--poneylist--ponybox{
+        text-align: center;
+        width: 300px;
+        border: 10px solid $secondColor;
+        padding: 30px;
+        border-radius: 30px;
+        transition: 1s background-color ease-in-out;
+
+        &:hover{
+            background-color: $mainColor;
+        }
+
+        img{
+            width: 100%;
+        }
+    }
+}
+
